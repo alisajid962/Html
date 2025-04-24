@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application</title>
+</head>
+<body>
+    <h1 id="greet" color="bluesky">Welcome to Softech Solutions</h1>
+    <p>We are glad to have you here. Please fill out the form below to apply for a job.</p>
+    <form action="backend.php" method="post">
+        <div>
+           Enter your name:  <input type="text" name ="username" placeholder="Enter your name" required />
+        </div>
+        <br>
+        <div>
+            <input type="email" name=" email" placeholder="Enter your email" required />
+        </div>
+        <br>
+        <div>
+            Enter your role:
+             <select name="role">
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="manager">Manager</option>
+                <option value="analyst">Analyst</option>
+              </select>
+        </div>
+        <br>
+        <div>
+            Enter your phone number: <input type="tel" name="phone" placeholder="Enter your phone number" required />
+        </div>
+        <br>
+        <div>
+            <textarea name="about" rows="10" cols="100" placeholder="Write about yourself"></textarea>
+        </div>
+    </form>
+</body>
+</html>
