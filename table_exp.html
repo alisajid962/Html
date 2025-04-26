@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Professional Table Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Employee Salary Report</h2>
+
+<div style="overflow-x:auto;">
+<table>
+  <thead>
+    <tr>
+      <th>Employee</th>
+      <th>Department</th>
+      <th>Salary ($)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ahmed</td>
+      <td>IT</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Sana</td>
+      <td>HR</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Bilal</td>
+      <td>Marketing</td>
+      <td>1100</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">Total</td>
+      <td>3300</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+
+</body>
+</html>
